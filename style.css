@@ -1,0 +1,213 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-image: url(./wp3812074.webp);
+    /* background-position:  ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.nav{
+    width: 100%;
+    height: 15%;
+    background-color:hsla(0, 0%, 100%, 0.1);
+    display: flex;
+    border-bottom:0.2px solid white ;
+    box-shadow: 1px 0.5px 20px 1px white;
+}
+.nav .img img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    /* margin: px; */
+    background-color: hsl(223, 91%, 45%, );
+    
+    border-bottom-right-radius: 50px;
+    border-bottom: 3px solid white;
+}
+.nav .img img:hover{
+    background-color: hsla(223, 91%, 45%, 0.7);
+
+}
+.content{
+width: 100%;
+/* height: 12%; */
+/* background-color: rgb(92, 92, 97); */
+display: flex;
+justify-content: flex-end;
+gap: 5%;
+padding: 30px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content a{
+    color: rgb(255, 254, 254);
+    text-decoration: none;  
+}
+.content a:hover{
+color: #c8ff00;
+text-decoration: underline;
+}
+.content a h5{
+    font-weight: 400;
+}
+.content :nth-child(5){
+    display: flex;
+    gap: 7px;
+    color:rgb(228, 244, 10) ;
+
+
+}
+.content :nth-child(5) i{
+    width: 25px;
+    height: 25px;
+    /* background-color: #fff; */
+    color:rgb(228, 244, 10) ;
+    border-radius: 12px;
+    padding: 2px;
+    border: 2px solid rgb(232, 248, 0);
+    /* background-color: #fff; */
+}
+.page1{
+width: 100%;
+height: 100%;
+/* background-color: green; */
+}
+.page1_box1{
+   width: 100%;
+   height: 60%;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   /* background-color: #fff; */
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: rgb(255, 255, 255);
+
+}
+hr{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    left: 73%;
+    color: white;
+    
+}
+/* .page1_box1 .line {
+color: black;
+background-color: black;
+} */
+.page1_box1 .box1{
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: x-large;
+
+}
+.page1_box1 .box1 button{
+    width: 130px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: yellow;
+    border: 2px solid  rgb(255, 255, 0);
+    font-size: medium;
+}
+.box1 button:hover{
+    background-color: hsla(0, 0%, 74% ,0.8);
+border: 2px solid  rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+    
+}
+.box_last  #yellow{
+color: yellow;
+}
+#yellow h1{
+color: hsl(60, 100%, 50%);
+border: 2px solid  hsl(60, 100%, 50%);
+}
+.page1_box1 .box2{
+    width: 200px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(230, 79, 79); */
+    flex-direction: column;
+}
+
+.page1_box1 .box2 a{
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 70%;  
+    background-color: hsla(0, 0%, 100%,0.1);
+    /* background-color: #a8a1a1; */
+    border: 2px solid white;
+}
+.page1_box1 .box2 a i:hover{
+color:yellow ;
+border-radius: 70%;  
+
+}
+.page1_box1 .box2 a:hover{
+    width: 34px;
+    height: 34px;
+    border: 2px solid rgb(212, 255, 0);
+    color: yellow;
+    
+
+    
+}
+.box_last{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsla(0, 0%, 98%, 0.2);
+    border-top:0.5px solid white ;
+}
+.box_last h1{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+ /* background-color: #fff; */
+ border-radius: 50px;
+ border: 2px solid white;
+ /* color: white; */
+}
+
+.box_last .box{
+    width: 70%;
+    display: flex;
+    padding: 70px;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    /* background-color: #bd8383; */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.box_last #box{
+width: 100%;
+}
